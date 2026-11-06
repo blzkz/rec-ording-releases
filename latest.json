@@ -1,0 +1,37 @@
+{
+  "version": "0.12.0",
+  "notes": "- **Nueva página de descargas**: todas las versiones se descargan desde aquí, con el paquete de cada sistema y su suma de comprobación.\n- **Galaxy S26 Ultra** incluido: es el único modelo 3D que trae la app. Modelo «Samsung S26 Ultra» de [Sagar Modi](https://sketchfab.com/modis1761) en [Sketchfab](https://sketchfab.com/3d-models/samsung-s26-ultra-7ff228963ea446f39f46a5541f71e352), licencia CC BY 4.0: menciona al autor al publicar tus vídeos.\n- **Aviso de actualización**: al abrir la app, si hay una versión nueva, aparece una ventana para instalarla.\n- **Emulador de Android**: puedes grabar un emulador de Android Studio igual que un móvil por USB, con sus toques y zooms automáticos.\n- **Más distribuciones de Linux**: paquetes para Debian/Ubuntu (.deb), Fedora/openSUSE (.rpm) y AppImage para cualquier otra, además de Arch y Windows.",
+  "page": "https://blzkz.github.io/rec-ording-releases/",
+  "assets": [
+    {
+      "name": "rec-ording-0.12.0-windows-x64.zip",
+      "url": "https://blzkz.github.io/rec-ording-releases/rec-ording-0.12.0-windows-x64.zip",
+      "sha256": "46e0d2cf70c2c96c499a25808992493b649ae11409b12949f20f356530709492",
+      "size": 9614848
+    },
+    {
+      "name": "rec-ording_0.12.0-1_amd64.deb",
+      "url": "https://blzkz.github.io/rec-ording-releases/rec-ording_0.12.0-1_amd64.deb",
+      "sha256": "6753e4914fb2664b3dbb34d3c7419621af6927d64ee65a91446667eb47cb5ba4",
+      "size": 8334984
+    },
+    {
+      "name": "rec-ording-0.12.0-1.x86_64.rpm",
+      "url": "https://blzkz.github.io/rec-ording-releases/rec-ording-0.12.0-1.x86_64.rpm",
+      "sha256": "03252f68bf1d16f16b46ce109e19cc32cd5e01c69b53036eadaaf3e29d40f6a5",
+      "size": 10542436
+    },
+    {
+      "name": "rec-ording-0.12.0-1-x86_64.pkg.tar.zst",
+      "url": "https://blzkz.github.io/rec-ording-releases/rec-ording-0.12.0-1-x86_64.pkg.tar.zst",
+      "sha256": "f1999ea36b09e713f395914d807001afb17a3e34249ed3ba8c19d1b391c30913",
+      "size": 10420699
+    },
+    {
+      "name": "rec-ording-0.12.0-x86_64.AppImage",
+      "url": "https://blzkz.github.io/rec-ording-releases/rec-ording-0.12.0-x86_64.AppImage",
+      "sha256": "957083ff6623a83552b9a87b98cdba3753f1a121a4a071e23fde37d57a8a5442",
+      "size": 10881528
+    }
+  ]
+}
