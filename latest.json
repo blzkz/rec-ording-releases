@@ -1,0 +1,37 @@
+{
+  "version": "0.17.0",
+  "notes": "- **Assistant (MCP) in English**: tool descriptions, replies and errors are now in English, which language models handle best. Camera move kinds are `auto_zoom`, `zoom`, `director` and `move`. / **Asistente (MCP) en inglés**: las descripciones de las herramientas, las respuestas y los errores están ahora en inglés, que los modelos de lenguaje manejan mejor.",
+  "page": "https://blzkz.github.io/rec-ording-releases/",
+  "assets": [
+    {
+      "name": "rec-ording-0.17.0-windows-x64.zip",
+      "url": "https://blzkz.github.io/rec-ording-releases/rec-ording-0.17.0-windows-x64.zip",
+      "sha256": "aa3f632fe1fa8a0e6e8b37ac7beabcf0b022eb8ba973f470e97ab6caf6a09c6a",
+      "size": 9756659
+    },
+    {
+      "name": "rec-ording_0.17.0-1_amd64.deb",
+      "url": "https://blzkz.github.io/rec-ording-releases/rec-ording_0.17.0-1_amd64.deb",
+      "sha256": "199e1ad6c57aa7cbe78e0bb427a0f86a216b66b81ae3f8b43fc35b9accf686a1",
+      "size": 8441588
+    },
+    {
+      "name": "rec-ording-0.17.0-1.x86_64.rpm",
+      "url": "https://blzkz.github.io/rec-ording-releases/rec-ording-0.17.0-1.x86_64.rpm",
+      "sha256": "f477877703ff3f8b15277dca978efd464daa6b824d205534d09b89117a4fbb9b",
+      "size": 10692354
+    },
+    {
+      "name": "rec-ording-0.17.0-1-x86_64.pkg.tar.zst",
+      "url": "https://blzkz.github.io/rec-ording-releases/rec-ording-0.17.0-1-x86_64.pkg.tar.zst",
+      "sha256": "ae22325d848cba3c38f120a9bad62c4bd8fb9f73626246ef7bda8712e3155e1f",
+      "size": 10575202
+    },
+    {
+      "name": "rec-ording-0.17.0-x86_64.AppImage",
+      "url": "https://blzkz.github.io/rec-ording-releases/rec-ording-0.17.0-x86_64.AppImage",
+      "sha256": "1b771ce92a7a947e96aa18bbe67da535b9a19b275955155d9f17a8fd956ec958",
+      "size": 11020792
+    }
+  ]
+}

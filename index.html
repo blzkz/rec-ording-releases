@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>rec·ording · Descargas</title>
+<meta name="description" content="Graba tu móvil Android y conviértelo en un vídeo promocional con marco, fondo y zooms suaves.">
+<link rel="icon" href="icon.png">
+<style>
+:root { --bg: #f5f5f7; --card: #ffffff; --text: #1d1d1f; --text2: #6e6e73; --line: #d2d2d7; --accent: #0a84ff; --red: #ff453a; --code: #f0f0f3; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #141416; --card: #1f1f22; --text: #f5f5f7; --text2: #a1a1a6; --line: #333338; --code: #2a2a2e; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", system-ui, sans-serif; }
+main { max-width: 1040px; margin: 0 auto; padding: 56px 20px 72px; }
+header { text-align: center; margin-bottom: 44px; }
+header img { width: 88px; height: 88px; border-radius: 20px; }
+h1 { font-size: 44px; font-weight: 600; letter-spacing: -0.02em; margin: 14px 0 4px; }
+h1 .dot { color: var(--red); }
+.tagline { color: var(--text2); font-size: 19px; margin: 0; }
+.version { display: inline-block; margin-top: 14px; padding: 3px 12px; border-radius: 999px; background: var(--card); border: 1px solid var(--line); color: var(--text2); font-size: 14px; }
+h2 { font-size: 22px; font-weight: 600; margin: 48px 0 16px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 20px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.card.mine { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
+.card h3 { margin: 0; font-size: 18px; font-weight: 600; }
+.who, .how { margin: 0; color: var(--text2); font-size: 14px; }
+.download { display: block; background: var(--accent); color: #fff; text-decoration: none; border-radius: 10px; padding: 10px 14px; font-weight: 600; }
+.download span { display: block; font-weight: 400; font-size: 12.5px; opacity: .85; overflow-wrap: anywhere; }
+.cmd { display: flex; gap: 8px; align-items: center; background: var(--code); border-radius: 8px; padding: 6px 6px 6px 10px; }
+.cmd code { flex: 1; font: 12.5px ui-monospace, "SF Mono", Menlo, monospace; overflow-x: auto; white-space: nowrap; }
+.cmd button { border: 0; border-radius: 6px; padding: 4px 10px; background: var(--card); color: var(--text); font: inherit; font-size: 13px; cursor: pointer; }
+.sha { margin: 0; color: var(--text2); font: 11px ui-monospace, Menlo, monospace; overflow-wrap: anywhere; opacity: .8; }
+.notes, .info { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 8px 24px; }
+.notes li { margin: 10px 0; }
+a { color: var(--accent); }
+footer { margin-top: 48px; text-align: center; color: var(--text2); font-size: 13px; }
+</style>
+</head>
+<body>
+<main>
+<header>
+  <img src="icon.png" alt="" width="88" height="88">
+  <h1>rec<span class="dot">·</span>ording</h1>
+  <p class="tagline">Graba tu móvil Android y conviértelo en un vídeo promocional.</p>
+  <span class="version">Versión 0.17.0</span>
+</header>
+
+<section>
+  <h2>Descargar</h2>
+  <div class="grid">
+<article class="card" data-os="windows">
+  <h3>Windows</h3>
+  <p class="who">Windows 10 y 11</p>
+  <a class="download" href="https://blzkz.github.io/rec-ording-releases/rec-ording-0.17.0-windows-x64.zip" download>Descargar <span>rec-ording-0.17.0-windows-x64.zip · 9,8 MB</span></a>
+  <p class="how">Descomprímelo y abre rec-ording.exe. Lee LEEME.txt para instalar ffmpeg, adb y scrcpy.</p>
+  <p class="sha">SHA-256 aa3f632fe1fa8a0e6e8b37ac7beabcf0b022eb8ba973f470e97ab6caf6a09c6a</p>
+</article>
+<article class="card" data-os="linux">
+  <h3>Debian y Ubuntu</h3>
+  <p class="who">Ubuntu 22.04+, Debian 12+, Linux Mint, Pop!_OS</p>
+  <a class="download" href="https://blzkz.github.io/rec-ording-releases/rec-ording_0.17.0-1_amd64.deb" download>Descargar <span>rec-ording_0.17.0-1_amd64.deb · 8,4 MB</span></a>
+  <div class="cmd"><code>sudo apt install ./rec-ording_0.17.0-1_amd64.deb</code><button type="button" data-copy="sudo apt install ./rec-ording_0.17.0-1_amd64.deb">Copiar</button></div>
+  <p class="sha">SHA-256 199e1ad6c57aa7cbe78e0bb427a0f86a216b66b81ae3f8b43fc35b9accf686a1</p>
+</article>
+<article class="card" data-os="linux">
+  <h3>Fedora y openSUSE</h3>
+  <p class="who">Fedora 36+ y openSUSE Tumbleweed (en openSUSE: sudo zypper install &lt;archivo&gt;)</p>
+  <a class="download" href="https://blzkz.github.io/rec-ording-releases/rec-ording-0.17.0-1.x86_64.rpm" download>Descargar <span>rec-ording-0.17.0-1.x86_64.rpm · 10,7 MB</span></a>
+  <div class="cmd"><code>sudo dnf install ./rec-ording-0.17.0-1.x86_64.rpm</code><button type="button" data-copy="sudo dnf install ./rec-ording-0.17.0-1.x86_64.rpm">Copiar</button></div>
+  <p class="sha">SHA-256 f477877703ff3f8b15277dca978efd464daa6b824d205534d09b89117a4fbb9b</p>
+</article>
+<article class="card" data-os="linux">
+  <h3>Arch Linux</h3>
+  <p class="who">Arch, CachyOS, Manjaro</p>
+  <a class="download" href="https://blzkz.github.io/rec-ording-releases/rec-ording-0.17.0-1-x86_64.pkg.tar.zst" download>Descargar <span>rec-ording-0.17.0-1-x86_64.pkg.tar.zst · 10,6 MB</span></a>
+  <div class="cmd"><code>sudo pacman -U rec-ording-0.17.0-1-x86_64.pkg.tar.zst</code><button type="button" data-copy="sudo pacman -U rec-ording-0.17.0-1-x86_64.pkg.tar.zst">Copiar</button></div>
+  <p class="sha">SHA-256 ae22325d848cba3c38f120a9bad62c4bd8fb9f73626246ef7bda8712e3155e1f</p>
+</article>
+<article class="card" data-os="linux">
+  <h3>AppImage</h3>
+  <p class="who">Cualquier otra distribución con glibc 2.35+</p>
+  <a class="download" href="https://blzkz.github.io/rec-ording-releases/rec-ording-0.17.0-x86_64.AppImage" download>Descargar <span>rec-ording-0.17.0-x86_64.AppImage · 11,0 MB</span></a>
+  <div class="cmd"><code>chmod +x rec-ording-0.17.0-x86_64.AppImage &amp;&amp; ./rec-ording-0.17.0-x86_64.AppImage</code><button type="button" data-copy="chmod +x rec-ording-0.17.0-x86_64.AppImage &amp;&amp; ./rec-ording-0.17.0-x86_64.AppImage">Copiar</button></div>
+  <p class="sha">SHA-256 1b771ce92a7a947e96aa18bbe67da535b9a19b275955155d9f17a8fd956ec958</p>
+</article>
+  </div>
+</section>
+
+<section>
+  <h2>Novedades</h2>
+  <div class="notes"><ul><li><strong>Assistant (MCP) in English</strong>: tool descriptions, replies and errors are now in English, which language models handle best. Camera move kinds are `auto_zoom`, `zoom`, `director` and `move`. / <strong>Asistente (MCP) en inglés</strong>: las descripciones de las herramientas, las respuestas y los errores están ahora en inglés, que los modelos de lenguaje manejan mejor.</li></ul></div>
+</section>
+
+<section>
+  <h2>Antes de empezar</h2>
+  <div class="info">
+    <p>Para importar y exportar vídeos hace falta <strong>ffmpeg</strong>; para grabar el móvil o un emulador, <strong>adb</strong> y <strong>scrcpy</strong>. Los paquetes .deb, .rpm y de Arch los instalan o recomiendan; con el AppImage y en Windows se instalan aparte.</p>
+    <p>Una vez instalada, la app avisa cuando hay una versión nueva y la instala sola.</p>
+    <p>El modelo 3D incluido, «Samsung S26 Ultra», es de <a href="https://sketchfab.com/modis1761">Sagar Modi</a> (<a href="https://sketchfab.com/3d-models/samsung-s26-ultra-7ff228963ea446f39f46a5541f71e352">Sketchfab</a>), con licencia <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+  </div>
+</section>
+
+<footer>rec·ording 0.17.0 · <a href="licencias.html">Licencias y créditos</a></footer>
+</main>
+<script>
+// Highlight the downloads for this computer's system.
+const os = /Windows/i.test(navigator.userAgent) ? "windows" : /Linux|X11/i.test(navigator.userAgent) ? "linux" : "";
+document.querySelectorAll(".card").forEach((c) => { if (c.dataset.os === os) c.classList.add("mine"); });
+document.querySelectorAll("button[data-copy]").forEach((b) => b.addEventListener("click", async () => {
+  try { await navigator.clipboard.writeText(b.dataset.copy); b.textContent = "Copiado"; setTimeout(() => (b.textContent = "Copiar"), 1500); } catch (e) {}
+}));
+</script>
+</body>
+</html>
